@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
 import './ContactPage.css';
+import FAQSection from './FAQSection';
 
 const ContactPage = () => {
     return (
@@ -134,6 +135,7 @@ const ContactPage = () => {
                     </div>
                 </Col>
             </Row>
+            <FAQSection/>
         </Container>
     );
 };

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './ProductPage.css';
 import { Container, Row, Col, Card, Button, Tab, Tabs, Carousel } from 'react-bootstrap';
+import FAQSection from './FAQSection';
 
 const ProductPage = () => {
     
@@ -270,13 +271,14 @@ const ProductPage = () => {
             </Row>
 
             {/* Final CTA */}
-            <Row className="final-cta py-5 my-5 animate-fade-in">
+            <Row className="final-cta pt-5 mt-5 animate-fade-in">
                 <Col className="text-center dta-div">
                     <h2 className="mb-4">Start Predicting Market Moves Today</h2>
                     <p className="lead mb-4">Join 25,000+ traders who trust our AI signals</p>
                     <Button variant="primary" size="lg" className="pulse-animation">Get 7-Day Free Trial</Button>
                 </Col>
             </Row>
+            <FAQSection/>
         </Container>
     );
 };

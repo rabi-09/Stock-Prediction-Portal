@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './AboutPage.css';
+import FAQSection from './FAQSection';
 
 const AboutPage = () => {
     return (
@@ -169,6 +170,7 @@ const AboutPage = () => {
                     </Row>
                 </Col>
             </Row>
+            <FAQSection/>
         </Container>
     );
 };
